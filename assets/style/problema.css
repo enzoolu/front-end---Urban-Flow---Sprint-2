@@ -1,0 +1,20 @@
+.problema {
+    padding-top: 130px;
+    height: 100vh;
+    background: #48435C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 50px;
+    height: 45%;
+    width: 85%;
+    color: #EDFFEC;
+    font-size: 32px;
+}

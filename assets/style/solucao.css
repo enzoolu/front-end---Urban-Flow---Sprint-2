@@ -1,0 +1,33 @@
+.solucao {
+    background-image: url(../images/background-solucao.svg);
+
+    padding-top: 130px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-solucao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 90px;
+    height: 45%;
+    width: 85%;
+    color: #EDFFEC;
+    font-size: 32px;
+}
+
+.div-imgs-solucao {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.imgs-solucao {
+    width: 151px;
+    height: 151px;
+}

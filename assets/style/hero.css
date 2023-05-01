@@ -1,0 +1,38 @@
+.hero {
+    background-image: url(../images/background-hero.svg);
+    
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.hero .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #61E786;
+    gap: 20px;
+    font-size: 30px;
+}
+
+.hero h2 {
+    font-size: 30px;
+    color: #EDFFEC;
+}
+
+.hero .logo img {
+    height: 170px;
+}
+
+.hero a {
+    padding: 20px 35px;
+    background-color: #61E786;
+    color: #EDFFEC;
+    font-size: 24px;
+    border-radius: 7px;
+    text-decoration: none;
+    transition: .4s;
+}
