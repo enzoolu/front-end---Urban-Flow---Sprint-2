@@ -1,0 +1,26 @@
+.app {
+    height: 100vh;
+    background-color: #9792E3;
+    padding-top: 130px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.funcionalidades {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.funcionalidades h2 {
+    margin-left: -32px;
+    color: #61E786;
+    font-size: 60px;
+}
+
+.funcionalidades li {
+    color: #EDFFEC;
+    font-size: 30px;
+}
