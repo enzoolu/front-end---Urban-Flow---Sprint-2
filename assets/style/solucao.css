@@ -7,6 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 90px;
 }
 
 .texto-solucao {
@@ -15,7 +16,6 @@
     justify-content: center;
     margin: 0 auto;
     gap: 90px;
-    height: 45%;
     width: 85%;
     color: #EDFFEC;
     font-size: 32px;

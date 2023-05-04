@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./assets/style/problema.css">
     <link rel="stylesheet" href="./assets/style/solucao.css">
     <link rel="stylesheet" href="./assets/style/app.css">
+    <link rel="stylesheet" href="./assets/style/pros-contras.css">
     <link rel="stylesheet" href="./assets/style/novidades.css">
     <link rel="stylesheet" href="./assets/style/contato.css">
     <title>URBAN FLOW</title>
@@ -30,12 +31,12 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="#problema">PROBLEMA</a></li>
-                    <li><a href="#solucao">SOLUÇÃO</a></li>
-                    <li><a href="#app">APLICATIVO</a></li>
-                    <li><a href="#prosContras">PROS E CONTRAS</a></li>
-                    <li><a href="#novidades">NOVIDADES</a></li>
-                    <li><a href="#contato">CONTATO</a></li>
+                    <li><a id="link1" href="#problema">PROBLEMA</a></li>
+                    <li><a id="link2" href="#solucao">SOLUÇÃO</a></li>
+                    <li><a id="link3" href="#app">APLICATIVO</a></li>
+                    <li><a id="link4" href="#prosContras">PROS E CONTRAS</a></li>
+                    <li><a id="link5" href="#novidades">NOVIDADES</a></li>
+                    <li><a id="link6" href="#contato">CONTATO</a></li>
                 </ul>
             </nav>
         </div>
@@ -97,6 +98,30 @@
         </div>
     </div>
     <!-- ################################################################################################################################# -->
+    <!-- PROS E CONTRAS -->
+    <div class="pros-contras background-image" id="prosContras">
+        <div class="problemas">
+            <img src="./assets/images/menos.svg" alt="Simbolo negativo">
+            <h2>PROBLEMAS</h2>
+            <ul>
+                <li>SUPER LOTAÇÃO</li>
+                <li>ATRASO</li>
+                <li>DESCONFORTO</li>
+                <li>TRÂNSITO</li>
+            </ul>
+        </div>
+        <div class="nossas-solucoes">
+            <img src="./assets/images/mais.svg" alt="Simbolo positivo">
+            <h2>NOSSAS SOLUÇÕES</h2>
+            <ul>
+                <li>OTIMIZAR A DISTRIBUIÇÃO <br> DE PASSAGEIROS</li>
+                <li>PREVISÃO DE CHEGADA NO PONTO <br> DE DESEMBARQUE</li>
+                <li>OPÇÕES DE ROTAS E LINHAS</li>
+                <li>ATRAIR MAIS USUÁRIOS PARA <br> O TRASPORTE PÚBLICO</li>
+            </ul>
+        </div>
+    </div>
+    <!-- ################################################################################################################################# -->
     <!-- NOVIDADES -->
     <div class="novidades" id="novidades">
         <form>
@@ -135,7 +160,8 @@
 
 
 
-    <script src="./assets/script.js"></script>
+    <script src="./assets/javascript/form.js"></script>
+    <script src="./assets/javascript/link-ativo.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
