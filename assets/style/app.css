@@ -24,3 +24,9 @@
     color: #EDFFEC;
     font-size: 30px;
 }
+
+@media (max-width: 1500px) {
+    .app-img img {
+        height: 600px;
+    }
+}

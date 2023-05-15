@@ -18,3 +18,20 @@
     color: #EDFFEC;
     font-size: 32px;
 }
+
+.imagens {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media (max-width: 1500px) {
+    .texto {
+        gap: 10px;
+        font-size: 28px;
+    }
+
+    .imagens img {
+        height: 80%;
+    }
+}

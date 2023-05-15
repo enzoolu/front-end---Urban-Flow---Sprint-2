@@ -22,13 +22,3 @@ footer {
     height: 35px;
     width: 35px;
 }
-
-.copyright {
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-}
-
-.copyright p {
-    margin-top: 20px;
-}

@@ -34,3 +34,13 @@
 .pros-contras img {
     width: 140px;
 }
+
+@media (max-width: 1500px) {
+    .pros-contras {
+        padding-top: 100px;
+    }
+
+    .pros-contras img {
+        width: 100px;
+    }
+}
