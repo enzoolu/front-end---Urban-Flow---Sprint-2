@@ -34,7 +34,11 @@ hr {
     border: 2px solid #61E786;
 }
 
-.link-color {
-    color: #EDFFEC;
-    text-decoration: underline;
+header p {
+    transition: .4s;
+}
+
+header p:hover {
+    color: #fff;
+    border-bottom: #fff 1px solid;
 }
