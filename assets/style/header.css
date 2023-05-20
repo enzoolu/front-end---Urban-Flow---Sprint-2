@@ -42,3 +42,7 @@ header p:hover {
     color: #fff;
     border-bottom: #fff 1px solid;
 }
+
+#problema {
+    margin-right: -20px;
+}
